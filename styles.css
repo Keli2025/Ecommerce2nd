@@ -93,7 +93,7 @@ li {
   font-size: 40px;
   text-align: center;
   border: none;
-  color:#7342d6;
+  color: #7342d6;
   display: none;
 }
 
@@ -117,6 +117,11 @@ li {
 .menu--open .menu__backdrop {
   visibility: visible;
   opacity: 1;
+}
+
+.menu--open {
+  max-height: 100vh;
+  overflow-y: hidden;
 }
 
 .menu__links {
@@ -147,7 +152,6 @@ li {
 LANDING
 
 */
-
 
 #landing {
   background-color: rgba(115, 66, 214, 0.1);
@@ -262,6 +266,7 @@ HIGHLIGHTS
 }
 .highlight__wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .highlight {
@@ -293,6 +298,7 @@ HIGHLIGHTS
 .highlight__subtitle {
   font-size: 20px;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 /*
@@ -417,12 +423,12 @@ footer {
 
 /* SMALL PHONE, LARGE SMARTPHONES */
 @media (max-width: 550px) {
-  .nav__links {
-    display: none;
+  .btn__menu {
+    display: block;
   }
 
-   .btn__menu {
-    display: block;
+    .nav__links {
+    display: none;
   }
 
   .highlight {
