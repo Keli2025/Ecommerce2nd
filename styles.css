@@ -48,14 +48,17 @@ li {
   list-style-type: none;
 }
 
-.nav__container {
-  width: 100%;
-  max-width: 1200px;
-  padding: 0 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
+h1 {
+  font-size: 56px;
+  color:#7342d6;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 32px;
+  text-align: center;
 }
 
 .purple {
@@ -64,6 +67,16 @@ li {
 
 .logo {
   width: 160px;
+}
+
+.nav__container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .nav__link {
